@@ -6,7 +6,7 @@ with nowhere to go wait in a small bay. Fill the bay and the level is lost.
 
 ![screenshots](Docs/screenshots.png)
 
-**Android:** APK in [Releases](../../releases) — _coming soon_ · **Play in the browser:** itch.io — _coming soon_
+**Play in the browser:** [zeafkee.github.io/play/parksort](https://zeafkee.github.io/play/parksort/) · **Android:** APK in [Releases](../../releases/latest)
 
 ## Features
 
