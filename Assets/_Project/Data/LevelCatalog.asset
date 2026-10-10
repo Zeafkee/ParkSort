@@ -1,0 +1,7207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67e81a76c7d3e494fa413cecb2e94f9c, type: 3}
+  m_Name: LevelCatalog
+  m_EditorClassIdentifier: ParkSort.Runtime::ParkSort.Data.LevelCatalog
+  levels:
+  - level:
+      width: 4
+      height: 4
+      cars:
+      - x: 2
+        y: 1
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 0100y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: TAP A CAR TO DRIVE IT INTO THE GARAGE OF ITS COLOUR
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 4
+      height: 5
+      cars:
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 0100y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: NO OPEN GARAGE? THE CAR WAITS BELOW. DO NOT FILL THE BAY!
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 5
+      cars:
+      - x: 4
+        y: 1
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 020100y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 5
+      cars:
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 010200y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 5
+      cars:
+      - x: 1
+        y: 0
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 000102y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 6
+      cars:
+      - x: 1
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 020100y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: 'Vans are longer.
+
+      Plan your way around them!'
+    difficulty: 0
+    featureTitle: VANS
+    featureIcon: {fileID: 21300000, guid: e3d2c04c6343ad440a3acc83096bf77d, type: 3}
+  - level:
+      width: 5
+      height: 6
+      cars:
+      - x: 3
+        y: 1
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 3
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 0
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 010002y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 1
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 6
+      cars:
+      - x: 1
+        y: 3
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 3
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 00020301y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.75625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 6
+      cars:
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 00010203y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.73125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 5
+      height: 6
+      cars:
+      - x: 0
+        y: 3
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 0
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 02010003y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.53125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 6
+      cars:
+      - x: 1
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 00020103y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.88125
+    caption: 'Their colour shows
+
+      when the way is clear!'
+    difficulty: 0
+    featureTitle: MYSTERY CARS
+    featureIcon: {fileID: 21300000, guid: 60d43ddf08c1f664e8d975700c6875fc, type: 3}
+  - level:
+      width: 6
+      height: 6
+      cars:
+      - x: 5
+        y: 5
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 3
+        length: 3
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 00030102y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.65625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 6
+      cars:
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 03010200y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.84375
+    randomWinRate: 0.85
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 6
+      cars:
+      - x: 2
+        y: 5
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 0
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 00010203y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.90625
+    randomWinRate: 0.75
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 6
+      cars:
+      - x: 2
+        y: 5
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels: []
+      garageQueue: 03020001y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.85
+    randomWinRate: 0.55
+    caption: 
+    difficulty: 1
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 0
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 030000001400000016000000i
+      tunnels: []
+      garageQueue: 03000201y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.80625
+    caption: 'Planters and cones
+
+      never move!'
+    difficulty: 0
+    featureTitle: OBSTACLES
+    featureIcon: {fileID: 21300000, guid: 57dc2fbeae0503749b7b5d60d619ba58, type: 3}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 3
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1d0000000400000002000000i
+      tunnels: []
+      garageQueue: 02010300y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.5
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 2
+        y: 1
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 150000001300000003000000i
+      tunnels: []
+      garageQueue: 01020300y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.90625
+    randomWinRate: 0.70625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 120000001900000006000000i
+      tunnels: []
+      garageQueue: 03020100y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.4875
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 08000000050000000a000000i
+      tunnels: []
+      garageQueue: 00010302y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.84375
+    randomWinRate: 0.175
+    caption: 
+    difficulty: 2
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 4
+        y: 6
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 1
+        length: 3
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 040000000c000000i
+      tunnels: []
+      garageQueue: 0103000402y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.65625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 3
+        length: 3
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0a0000000e000000i
+      tunnels: []
+      garageQueue: 0102030004y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.4375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 3
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1a00000017000000i
+      tunnels: []
+      garageQueue: 0004020103y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.41875
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 4
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 140000000d000000i
+      tunnels: []
+      garageQueue: 0400020301y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.4
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 3
+        y: 3
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 1
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2000000006000000i
+      tunnels: []
+      garageQueue: 0104020003y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.925
+    randomWinRate: 0.14375
+    caption: 
+    difficulty: 1
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 3
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1100000016000000i
+      tunnels: []
+      garageQueue: 0001020403y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.55625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 2
+        y: 4
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 000000000f000000i
+      tunnels: []
+      garageQueue: 0003020104y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.3375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 3
+        y: 2
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0400000007000000i
+      tunnels: []
+      garageQueue: 0103000204y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.31875
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 1
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1c00000023000000i
+      tunnels: []
+      garageQueue: 0100020403y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.28125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 4
+        y: 1
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 1
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0f0000001f000000i
+      tunnels: []
+      garageQueue: 0402030001y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.70625
+    randomWinRate: 0.15625
+    caption: 
+    difficulty: 2
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 6
+      height: 7
+      cars:
+      - x: 2
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 5
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 6
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 1
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      blockedCells: 
+      tunnels:
+      - x: 5
+        y: 5
+        direction: 2
+      garageQueue: 03000201y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.9625
+    randomWinRate: 0.85625
+    caption: 'Cars come out one by one.
+
+      Tap it to send the next one!'
+    difficulty: 0
+    featureTitle: TUNNEL
+    featureIcon: {fileID: 21300000, guid: 7a39694129fe6d84fb944e2d33519814, type: 3}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 2
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 0
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 5
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 3
+        direction: 3
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1b000000i
+      tunnels:
+      - x: 4
+        y: 4
+        direction: 1
+      garageQueue: 0003040102y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.79375
+    randomWinRate: 0.55
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 6
+        y: 4
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 6
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2d000000i
+      tunnels:
+      - x: 5
+        y: 0
+        direction: 1
+      garageQueue: 0401000302y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.2125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 2
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 6
+        direction: 1
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1a000000i
+      tunnels:
+      - x: 2
+        y: 2
+        direction: 3
+      garageQueue: 0100040203y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.20625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 4
+        y: 0
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 2
+        direction: 3
+        length: 3
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 3
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 3
+        direction: 3
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 4
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 21000000i
+      tunnels:
+      - x: 2
+        y: 3
+        direction: 3
+      garageQueue: 0401020300y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.83125
+    randomWinRate: 0.1
+    caption: 
+    difficulty: 1
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 6
+        y: 1
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 1
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 5
+        direction: 1
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 3
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 1
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 2
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2e000000i
+      tunnels:
+      - x: 0
+        y: 5
+        direction: 1
+      garageQueue: 0201000403y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.85
+    randomWinRate: 0.5875
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 0
+        y: 6
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 0
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0a000000i
+      tunnels:
+      - x: 3
+        y: 2
+        direction: 3
+      garageQueue: 0103000204y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.875
+    randomWinRate: 0.3375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 5
+        y: 6
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 4
+        direction: 3
+        length: 3
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 18000000i
+      tunnels:
+      - x: 5
+        y: 6
+        direction: 2
+      garageQueue: 0304010200y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.80625
+    randomWinRate: 0.4125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 2
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 1
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 08000000i
+      tunnels:
+      - x: 3
+        y: 5
+        direction: 0
+      garageQueue: 0400030201y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.89375
+    randomWinRate: 0.23125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 7
+      cars:
+      - x: 4
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 5
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 1
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2e000000i
+      tunnels:
+      - x: 2
+        y: 5
+        direction: 3
+      garageQueue: 0002010403y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.65625
+    randomWinRate: 0.0625
+    caption: 
+    difficulty: 2
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 4
+        y: 4
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 1
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 7
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 6
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 150000001b000000i
+      tunnels:
+      - x: 3
+        y: 2
+        direction: 3
+      garageQueue: 020103040500y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.275
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 0
+        y: 2
+        direction: 0
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 0
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 0
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 5
+        direction: 1
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1f00000008000000i
+      tunnels:
+      - x: 0
+        y: 2
+        direction: 0
+      garageQueue: 030100040502y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.05625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 4
+        y: 2
+        direction: 1
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 1
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 4
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0200000011000000i
+      tunnels:
+      - x: 1
+        y: 4
+        direction: 1
+      garageQueue: 040305010002y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.0375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 1
+        y: 2
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 6
+        y: 0
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 7
+        direction: 1
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 0
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 1
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 0
+        direction: 3
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 5
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 1
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2f00000026000000i
+      tunnels:
+      - x: 6
+        y: 0
+        direction: 3
+      garageQueue: 010003040205y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.89375
+    randomWinRate: 0.175
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 0
+        y: 1
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 2
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 4
+        direction: 3
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 0
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 3200000009000000i
+      tunnels:
+      - x: 3
+        y: 5
+        direction: 1
+      garageQueue: 020105040300y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.75
+    randomWinRate: 0.05625
+    caption: 
+    difficulty: 1
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 2
+        y: 6
+        direction: 1
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 2
+        direction: 2
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 7
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 2
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 1
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 5
+        direction: 2
+        length: 3
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 7
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1c00000007000000i
+      tunnels:
+      - x: 2
+        y: 6
+        direction: 1
+      garageQueue: 030501020400y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 1
+    randomWinRate: 0.19375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 5
+        y: 1
+        direction: 0
+        length: 3
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 4
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2a0000001f000000i
+      tunnels:
+      - x: 6
+        y: 6
+        direction: 0
+      garageQueue: 020304050001y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.80625
+    randomWinRate: 0.2375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 1
+        y: 2
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 6
+        y: 0
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 2
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 2
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0100000033000000i
+      tunnels:
+      - x: 4
+        y: 6
+        direction: 0
+      garageQueue: 040102050003y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.85625
+    randomWinRate: 0.1375
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 1
+        y: 2
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 6
+        direction: 2
+        length: 3
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 2
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 0
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 7
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 6
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 1e00000009000000i
+      tunnels:
+      - x: 3
+        y: 3
+        direction: 2
+      garageQueue: 020500030104y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.68125
+    randomWinRate: 0.425
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 5
+        y: 3
+        direction: 1
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 6
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 1
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 2
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 1
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 0
+        length: 3
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 3
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 0
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 1
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0900000008000000i
+      tunnels:
+      - x: 5
+        y: 3
+        direction: 1
+      garageQueue: 010503040200y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 5
+    greedyWinRate: 0.55625
+    randomWinRate: 0.03125
+    caption: 
+    difficulty: 2
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 2
+        y: 7
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 2
+      - x: 5
+        y: 7
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 0
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 5
+        direction: 0
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 0
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 5
+        direction: 0
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 3
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 0
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 4
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 040000000b000000i
+      tunnels:
+      - x: 4
+        y: 5
+        direction: 0
+      - x: 2
+        y: 7
+        direction: 2
+      garageQueue: 030401020005y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 1
+    randomWinRate: 0.1
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 5
+        y: 5
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 4
+        direction: 2
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 2
+      - x: 1
+        y: 3
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 3
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 5
+        direction: 3
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 0
+        direction: 1
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 6
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      blockedCells: 340000001d000000i
+      tunnels:
+      - x: 5
+        y: 5
+        direction: 3
+      - x: 4
+        y: 4
+        direction: 2
+      garageQueue: 030405000102y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.85625
+    randomWinRate: 0.0875
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 0
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 2
+      - x: 3
+        y: 6
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 2
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 5
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 3
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 2
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 2
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 230000002f000000i
+      tunnels:
+      - x: 4
+        y: 2
+        direction: 2
+      - x: 1
+        y: 6
+        direction: 3
+      garageQueue: 050100040203y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.8875
+    randomWinRate: 0.0125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 3
+        y: 6
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 3
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 5
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 2
+      - x: 2
+        y: 7
+        direction: 3
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 7
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 1
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 3
+        direction: 3
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 7
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0000000036000000i
+      tunnels:
+      - x: 2
+        y: 7
+        direction: 3
+      - x: 2
+        y: 2
+        direction: 2
+      garageQueue: 020005010403y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.84375
+    randomWinRate: 0.08125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 4
+        y: 7
+        direction: 2
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 7
+        direction: 2
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 7
+        direction: 2
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 2
+      - x: 5
+        y: 5
+        direction: 1
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 1
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 4
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 2
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 2
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 2
+        direction: 0
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 1
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0a00000021000000i
+      tunnels:
+      - x: 5
+        y: 5
+        direction: 1
+      - x: 4
+        y: 7
+        direction: 2
+      garageQueue: 030102040005y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.65625
+    randomWinRate: 0.03125
+    caption: 
+    difficulty: 1
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 1
+        y: 2
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 4
+        direction: 0
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 5
+        direction: 0
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 2
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 7
+        direction: 3
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 2
+      - x: 1
+        y: 6
+        direction: 3
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 3
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 3
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 2
+        direction: 2
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 0
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 1
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      blockedCells: 2d0000000a000000i
+      tunnels:
+      - x: 4
+        y: 4
+        direction: 0
+      - x: 2
+        y: 5
+        direction: 0
+      garageQueue: 020103050004y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 1
+    randomWinRate: 0.025
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 1
+        y: 5
+        direction: 2
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 0
+        direction: 3
+        length: 1
+        color: 5
+        hidden: 0
+        tunnel: 2
+      - x: 2
+        y: 0
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 2
+      - x: 2
+        y: 0
+        direction: 3
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 2
+      - x: 1
+        y: 2
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 7
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 1
+        color: 0
+        hidden: 0
+        tunnel: 1
+      - x: 5
+        y: 7
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 3
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 7
+        direction: 3
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 1
+        direction: 3
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 4
+        y: 3
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0c00000021000000i
+      tunnels:
+      - x: 3
+        y: 1
+        direction: 3
+      - x: 2
+        y: 0
+        direction: 3
+      garageQueue: 000203010504y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.8375
+    randomWinRate: 0.05
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 0
+        y: 2
+        direction: 1
+        length: 2
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 3
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 2
+        direction: 2
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 2
+        length: 3
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 2
+      - x: 6
+        y: 6
+        direction: 0
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 1
+      - x: 3
+        y: 6
+        direction: 0
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 1
+        hidden: 0
+        tunnel: 2
+      - x: 4
+        y: 0
+        direction: 3
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 2
+        y: 5
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 3
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 6
+        direction: 0
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 7
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 3
+        color: 3
+        hidden: 0
+        tunnel: 0
+      blockedCells: 270000001d000000i
+      tunnels:
+      - x: 6
+        y: 6
+        direction: 0
+      - x: 5
+        y: 5
+        direction: 2
+      garageQueue: 000501030204y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.66875
+    randomWinRate: 0.2625
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 6
+        y: 5
+        direction: 2
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 0
+        y: 7
+        direction: 2
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 3
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 2
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 2
+        direction: 0
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 2
+      - x: 5
+        y: 2
+        direction: 2
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 2
+        length: 1
+        color: 3
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 4
+        direction: 1
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 0
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 3
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 5
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 6
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 4
+        direction: 2
+        length: 2
+        color: 5
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 0
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 2
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 1
+        direction: 3
+        length: 3
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 4
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0100000003000000i
+      tunnels:
+      - x: 6
+        y: 5
+        direction: 2
+      - x: 2
+        y: 2
+        direction: 0
+      garageQueue: 000503040102y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.775
+    randomWinRate: 0.08125
+    caption: 
+    difficulty: 0
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  - level:
+      width: 7
+      height: 8
+      cars:
+      - x: 2
+        y: 1
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 5
+        y: 5
+        direction: 2
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 2
+      - x: 1
+        y: 6
+        direction: 3
+        length: 1
+        color: 4
+        hidden: 0
+        tunnel: 1
+      - x: 6
+        y: 1
+        direction: 2
+        length: 2
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 6
+        direction: 3
+        length: 1
+        color: 2
+        hidden: 0
+        tunnel: 1
+      - x: 2
+        y: 4
+        direction: 0
+        length: 2
+        color: 0
+        hidden: 1
+        tunnel: 0
+      - x: 4
+        y: 2
+        direction: 1
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 0
+        y: 6
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 6
+        direction: 0
+        length: 2
+        color: 5
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 5
+        direction: 2
+        length: 3
+        color: 1
+        hidden: 1
+        tunnel: 0
+      - x: 5
+        y: 0
+        direction: 3
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      - x: 6
+        y: 5
+        direction: 0
+        length: 2
+        color: 4
+        hidden: 1
+        tunnel: 0
+      - x: 1
+        y: 0
+        direction: 3
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 3
+        y: 3
+        direction: 1
+        length: 3
+        color: 2
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 7
+        direction: 1
+        length: 3
+        color: 0
+        hidden: 0
+        tunnel: 0
+      - x: 1
+        y: 1
+        direction: 3
+        length: 2
+        color: 4
+        hidden: 0
+        tunnel: 0
+      - x: 2
+        y: 6
+        direction: 0
+        length: 2
+        color: 3
+        hidden: 0
+        tunnel: 0
+      - x: 4
+        y: 4
+        direction: 1
+        length: 2
+        color: 1
+        hidden: 0
+        tunnel: 0
+      blockedCells: 0e0000002e000000i
+      tunnels:
+      - x: 1
+        y: 6
+        direction: 3
+      - x: 5
+        y: 5
+        direction: 2
+      garageQueue: 040103000205y
+      garageCapacity: 3
+      openGarages: 2
+      waitingSlots: 4
+    greedyWinRate: 0.475
+    randomWinRate: 0.00625
+    caption: 
+    difficulty: 2
+    featureTitle: 
+    featureIcon: {fileID: 0}
+  endlessSettings:
+    width: 7
+    height: 8
+    cars: 18
+    colors: 6
+    longCarChance: 0.3
+    hiddenChance: 0.4
+    obstacles: 2
+    waitingSlots: 4
+    directChance: 0.34
+    lookahead: 3
+    plannedWaitingLimit: 4
+    tunnels: 2
+    carsPerTunnel: 3

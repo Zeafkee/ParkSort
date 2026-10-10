@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85c9f41d79733ae49988437ab4a2256f, type: 3}
+  m_Name: GameTheme
+  m_EditorClassIdentifier: ParkSort.Runtime::ParkSort.Data.GameTheme
+  colors:
+  - {r: 0.9411765, g: 0.30588236, b: 0.32156864, a: 1}
+  - {r: 0.24313726, g: 0.53333336, b: 0.9647059, a: 1}
+  - {r: 1, g: 0.7764706, b: 0.17254902, a: 1}
+  - {r: 0.25882354, g: 0.76862746, b: 0.43137255, a: 1}
+  - {r: 0.61960787, g: 0.40784314, b: 0.9254902, a: 1}
+  - {r: 1, g: 0.5411765, b: 0.21176471, a: 1}
+  - {r: 1, g: 0.4627451, b: 0.7137255, a: 1}
+  - {r: 0.18039216, g: 0.7764706, b: 0.8, a: 1}
+  paintMaterials:
+  - {fileID: 2100000, guid: 78b8bd8daa60aa84694ec27594a9a7c2, type: 2}
+  - {fileID: 2100000, guid: ee448d388be6e4040a02e206573c4927, type: 2}
+  - {fileID: 2100000, guid: b356c8a8348abed4f818ba37125be07a, type: 2}
+  - {fileID: 2100000, guid: 4849ca044ff380047abc595557f36af2, type: 2}
+  - {fileID: 2100000, guid: 97a3f7a7337175345a751976a1f597c6, type: 2}
+  - {fileID: 2100000, guid: f4f714762349b6642b5a86ec7ef18922, type: 2}
+  - {fileID: 2100000, guid: 63d89022faffcbe4c8bb85cbf1398b3d, type: 2}
+  - {fileID: 2100000, guid: a5c6d673fe2ee384b8ce0082c44f7610, type: 2}
+  hiddenMaterial: {fileID: 2100000, guid: 1811bea777b8d4647bbe0bfd63147b61, type: 2}
+  neutralMaterial: {fileID: 2100000, guid: fa04b7a4061e77941a2350a1a34eb1fd, type: 2}
+  shadowMaterial: {fileID: 2100000, guid: cebfe836dab79224dadf2d0960e7f8b3, type: 2}
+  font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  fontMaterial: {fileID: 2100000, guid: 73a23f855433c9a4487f034690acc044, type: 2}
+  car: {fileID: -8670151273213183110, guid: 3b9f90b92b690af4ba757696eebda8a4, type: 3}
+  van: {fileID: -8670151273213183110, guid: 86da22957a3dfe944805362ea1e0f7e7, type: 3}
+  question: {fileID: -8670151273213183110, guid: 586cad97da16c8b42be12d8971334c78, type: 3}
+  garage: {fileID: -8670151273213183110, guid: 44c417b7e03aebf429c77d27b79535e6, type: 3}
+  waitingSlot: {fileID: -8670151273213183110, guid: d66829366d43f8b499099c044c8a03da, type: 3}
+  tunnelBase: {fileID: -8670151273213183110, guid: b8fa13a5a03d664478dde6ffbf8b5bb5, type: 3}
+  tunnelLight: {fileID: -8670151273213183110, guid: 2de098c68f4dbbf4bb1291403487901d, type: 3}
+  quad: {fileID: 4300000, guid: de4db837ee7f9da4a89831c6162f4a0a, type: 2}
+  obstacles:
+  - {fileID: -8670151273213183110, guid: 1efb7831dc3a3eb468251a096e622eb7, type: 3}
+  - {fileID: -8670151273213183110, guid: 81b785296dbcb9d4f9a4ee7e4dd8ac7f, type: 3}
+  decor:
+  - {fileID: -8670151273213183110, guid: 597173dae85247b4ab172442884fe95e, type: 3}
+  - {fileID: -8670151273213183110, guid: a40209c4a02d7c64aae014f1e1047902, type: 3}
+  - {fileID: -8670151273213183110, guid: 6d00b0e40108b9e47ac7c0eb6fc8cfec, type: 3}
+  - {fileID: -8670151273213183110, guid: 1f7297ab54785f44ea85edbff5088216, type: 3}

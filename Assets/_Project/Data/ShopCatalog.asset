@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97732795d0ac59a478e6864af89bb052, type: 3}
+  m_Name: ShopCatalog
+  m_EditorClassIdentifier: ParkSort.Runtime::ParkSort.Data.SkinCatalog
+  skins:
+  - title: CLASSIC
+    price: 0
+    grass: {r: 0.56078434, g: 0.8, b: 0.4509804, a: 1}
+    grassAlternate: {r: 0.50980395, g: 0.7607843, b: 0.41960785, a: 1}
+    lot: {r: 0.36078432, g: 0.3882353, b: 0.47058824, a: 1}
+    road: {r: 0.4392157, g: 0.47058824, b: 0.54901963, a: 1}
+    line: {r: 0.9490196, g: 0.9607843, b: 1, a: 1}
+    curb: {r: 0.85882354, g: 0.87058824, b: 0.92156863, a: 1}
+    light: {r: 1, g: 0.97, b: 0.9, a: 1}
+    ambient: {r: 0.5, g: 0.55, b: 0.68, a: 1}
+  - title: SUNSET
+    price: 400
+    grass: {r: 0.9411765, g: 0.6745098, b: 0.4392157, a: 1}
+    grassAlternate: {r: 0.9098039, g: 0.627451, b: 0.4, a: 1}
+    lot: {r: 0.38431373, g: 0.3372549, b: 0.45490196, a: 1}
+    road: {r: 0.4862745, g: 0.41568628, b: 0.5254902, a: 1}
+    line: {r: 1, g: 0.9411765, b: 0.8862745, a: 1}
+    curb: {r: 1, g: 0.87058824, b: 0.76862746, a: 1}
+    light: {r: 1, g: 0.84, b: 0.66, a: 1}
+    ambient: {r: 0.62, g: 0.5, b: 0.6, a: 1}
+  - title: BEACH
+    price: 600
+    grass: {r: 0.9490196, g: 0.85490197, b: 0.6117647, a: 1}
+    grassAlternate: {r: 0.91764706, g: 0.8156863, b: 0.57254905, a: 1}
+    lot: {r: 0.3764706, g: 0.47843137, b: 0.54901963, a: 1}
+    road: {r: 0.4627451, g: 0.57254905, b: 0.63529414, a: 1}
+    line: {r: 0.98039216, g: 0.9882353, b: 1, a: 1}
+    curb: {r: 1, g: 0.9647059, b: 0.85490197, a: 1}
+    light: {r: 1, g: 0.98, b: 0.9, a: 1}
+    ambient: {r: 0.56, g: 0.62, b: 0.7, a: 1}
+  - title: NIGHT
+    price: 900
+    grass: {r: 0.17254902, g: 0.2901961, b: 0.38431373, a: 1}
+    grassAlternate: {r: 0.14901961, g: 0.25882354, b: 0.3529412, a: 1}
+    lot: {r: 0.18039216, g: 0.20392157, b: 0.30588236, a: 1}
+    road: {r: 0.23529412, g: 0.26666668, b: 0.38431373, a: 1}
+    line: {r: 0.74509805, g: 0.83137256, b: 1, a: 1}
+    curb: {r: 0.47058824, g: 0.5568628, b: 0.76862746, a: 1}
+    light: {r: 0.66, g: 0.74, b: 1, a: 1}
+    ambient: {r: 0.36, g: 0.4, b: 0.62, a: 1}
+  - title: SNOW
+    price: 1200
+    grass: {r: 0.8, g: 0.87058824, b: 0.9490196, a: 1}
+    grassAlternate: {r: 0.74509805, g: 0.83137256, b: 0.9254902, a: 1}
+    lot: {r: 0.42352942, g: 0.47843137, b: 0.5803922, a: 1}
+    road: {r: 0.5254902, g: 0.5803922, b: 0.6745098, a: 1}
+    line: {r: 1, g: 1, b: 1, a: 1}
+    curb: {r: 0.98039216, g: 0.9882353, b: 1, a: 1}
+    light: {r: 0.95, g: 0.98, b: 1, a: 1}
+    ambient: {r: 0.6, g: 0.66, b: 0.78, a: 1}
+  packs:
+  - kind: 0
+    amount: 3
+    price: 80
+  - kind: 1
+    amount: 3
+    price: 100
+  - kind: 2
+    amount: 3
+    price: 150
